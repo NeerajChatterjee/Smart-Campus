@@ -1,0 +1,47 @@
+ {
+  "project_info": {
+    "project_number": "862132246861",
+    "project_id": "smart-campus-mnnit",
+    "storage_bucket": "smart-campus-mnnit.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:862132246861:android:1e46a2baba0423e1253f04",
+        "android_client_info": {
+          "package_name": "com.neeraj.smartcampus"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "862132246861-d8fi21agnj1lcdqtp2b0lo501ahhjrkr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.neeraj.smartcampus",
+            "certificate_hash": "9b20271c916e7619e07a792ccecbf213cc09092e"
+          }
+        },
+        {
+          "client_id": "862132246861-hu63ppsg8kev46jsqvupbivcg3m6ujrn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCx9pt6nVUFck6PNskVaciOz6NcRt-coiY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "862132246861-hu63ppsg8kev46jsqvupbivcg3m6ujrn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
