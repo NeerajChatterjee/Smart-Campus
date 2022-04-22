@@ -36,7 +36,6 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-
         getSupportActionBar()?.hide()
 
         introSliderViewPager.adapter = introSliderAdapter
@@ -55,8 +54,7 @@ class MainActivity : AppCompatActivity() {
                 introSliderViewPager.currentItem += 1
             }
             else {
-                val intent = Intent(this, UserLoginActivity::class.java)
-                startActivity(intent)
+                startActivity(Intent(this, UserLoginActivity::class.java))
                 finish()
             }
         }

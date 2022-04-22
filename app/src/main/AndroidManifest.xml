@@ -13,6 +13,13 @@
             android:name=".user_activities.UserLoginActivity"
             android:exported="false" />
         <activity
+            android:name=".user_activities.UserVerifyOTP"
+            android:exported="false" />
+        <activity
+            android:name=".user_activities.UserSignUpActivity"
+            android:exported="false" />
+
+        <activity
             android:name=".SplashScreen"
             android:exported="true">
             <intent-filter>
