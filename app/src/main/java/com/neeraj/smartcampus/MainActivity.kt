@@ -1,5 +1,6 @@
 package com.neeraj.smartcampus
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.ViewGroup
@@ -8,7 +9,9 @@ import android.widget.LinearLayout
 import androidx.core.content.ContextCompat
 import androidx.core.view.get
 import androidx.viewpager2.widget.ViewPager2
+import com.neeraj.smartcampus.user_activities.UserLoginActivity
 import kotlinx.android.synthetic.main.activity_main.*
+import kotlinx.android.synthetic.main.activity_splash_screen.*
 
 class MainActivity : AppCompatActivity() {
     private val introSliderAdapter = IntroSliderAdapter(
@@ -16,7 +19,7 @@ class MainActivity : AppCompatActivity() {
             IntroSlide(
                 "Welcome to Smart Campus",
                 "Everything in your palm",
-                R.drawable.shape
+                R.drawable.campus
             ),
             IntroSlide(
                 "Order Your Favorite Food",
@@ -52,8 +55,15 @@ class MainActivity : AppCompatActivity() {
                 introSliderViewPager.currentItem += 1
             }
             else {
-//                val intent = Intent()
+                val intent = Intent(this, UserLoginActivity::class.java)
+                startActivity(intent)
+                finish()
             }
+        }
+        text2.setOnClickListener{
+            val intent = Intent(this, UserLoginActivity::class.java)
+            startActivity(intent)
+            finish()
         }
     }
 

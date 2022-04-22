@@ -1,4 +1,12 @@
 <resources>
     <string name="app_name">SmartCampus</string>
     <string name="smart_campus">Smart Campus</string>
+    <string name="skip">Skip!</string>
+    <string name="next">Next</string>
+    <string name="log_in_to_your_account">Log in to your Account</string>
+    <string name="enter_email_id">Enter Email ID</string>
+    <string name="password">Password</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="log_in">LOG IN</string>
+    <string name="new_here_get_started">New Here? Get Started!</string>
 </resources>
