@@ -1,3 +1,14 @@
 <resources>
     <string name="app_name">SmartCampus</string>
+    <string name="signup_email">E Mail</string>
+    <string name="signup_password">Password</string>
+    <string name="signup_phone_number">Phone Number</string>
+    <string name="signup_get_otp">GET OTP</string>
+    <string name="already_an_user">Already an User?</string>
+    <string name="log_in_text">LOG IN</string>
+    <string name="otp_verification_text">OTP Verification</string>
+    <string name="enter_the_otp_sent_to_text">Enter the OTP sent to</string>
+    <string name="didn_t_receive_the_otp_text">Didn\'t receive the OTP?</string>
+    <string name="resend_otp_text">Resend OTP</string>
+    <string name="verify_otp_text">VERIFY OTP</string>
 </resources>

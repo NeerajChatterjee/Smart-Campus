@@ -1,5 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Neeraj/AndroidStudioProjects/Hack36_5.0 (Original)/Smart-Campus/app/src/main/res/drawable/ic_baseline_email_24.xml" value="0.1585" />
+        <entry key="..\:/Users/Neeraj/AndroidStudioProjects/Hack36_5.0 (Original)/Smart-Campus/app/src/main/res/drawable/ic_baseline_home_24.xml" value="0.1585" />
+        <entry key="..\:/Users/Neeraj/AndroidStudioProjects/Hack36_5.0 (Original)/Smart-Campus/app/src/main/res/drawable/ic_baseline_phone_24.xml" value="0.1585" />
+        <entry key="..\:/Users/Neeraj/AndroidStudioProjects/Hack36_5.0 (Original)/Smart-Campus/app/src/main/res/drawable/ic_baseline_remove_red_eye_24.xml" value="0.1025" />
+        <entry key="..\:/Users/Neeraj/AndroidStudioProjects/Hack36_5.0 (Original)/Smart-Campus/app/src/main/res/layout/activity_user_login.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Neeraj/AndroidStudioProjects/Hack36_5.0 (Original)/Smart-Campus/app/src/main/res/layout/activity_user_sign_up.xml" value="0.264" />
+        <entry key="..\:/Users/Neeraj/AndroidStudioProjects/Hack36_5.0 (Original)/Smart-Campus/app/src/main/res/layout/activity_user_verify_otp.xml" value="0.264" />
+      </map>
+    </option>
+  </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
