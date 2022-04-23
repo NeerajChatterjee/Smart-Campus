@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.SmartCampus">
         <activity
+            android:name=".user_activities.UserDashboardActivity"
+            android:exported="false" />
+        <activity
+            android:name=".UserDashboardActivity"
+            android:exported="false" />
+        <activity
             android:name=".user_activities.UserLoginActivity"
             android:exported="false" />
         <activity
@@ -18,7 +24,6 @@
         <activity
             android:name=".user_activities.UserSignUpActivity"
             android:exported="false" />
-
         <activity
             android:name=".SplashScreen"
             android:exported="true">
@@ -30,7 +35,7 @@
         </activity>
         <activity
             android:name=".MainActivity"
-            android:exported="false"></activity>
+            android:exported="false" />
     </application>
 
 </manifest>

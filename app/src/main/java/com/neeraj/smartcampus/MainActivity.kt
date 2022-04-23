@@ -9,6 +9,7 @@ import android.widget.LinearLayout
 import androidx.core.content.ContextCompat
 import androidx.core.view.get
 import androidx.viewpager2.widget.ViewPager2
+import com.neeraj.smartcampus.user_activities.UserDashboardActivity
 import com.neeraj.smartcampus.user_activities.UserLoginActivity
 import com.neeraj.smartcampus.user_activities.UserSignUpActivity
 import kotlinx.android.synthetic.main.activity_main.*
@@ -20,17 +21,17 @@ class MainActivity : AppCompatActivity() {
         listOf(
             IntroSlide(
                 "Welcome to Smart Campus",
-                "Everything in your palm",
+                "Everything at your palm",
                 R.drawable.campus
             ),
             IntroSlide(
                 "Order Your Favorite Food",
-                "Everything in your palm",
+                "Everything at your palm",
                 R.drawable.shape
             ),
             IntroSlide(
                 "Daily Entries, Register Complaints and Many More",
-                "Everything in your palm",
+                "Everything at your palm",
                 R.drawable.shape
             )
         )
@@ -61,7 +62,7 @@ class MainActivity : AppCompatActivity() {
             }
         }
         text2.setOnClickListener{
-            val intent = Intent(this, UserSignUpActivity::class.java)
+            val intent = Intent(this, UserDashboardActivity::class.java)
             startActivity(intent)
             finish()
         }

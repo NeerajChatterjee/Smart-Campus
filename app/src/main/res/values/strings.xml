@@ -21,4 +21,9 @@
     <string name="log_in">LOG IN</string>
     <string name="new_here_get_started">New Here? Get Started!</string>
     <string name="sign_up">Sign Up</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hostel">Hostel</string>
+    <string name="profile">Profile</string>
+    <string name="food">Food</string>
 </resources>
