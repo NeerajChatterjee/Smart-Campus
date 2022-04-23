@@ -61,6 +61,7 @@ dependencies {
     implementation 'com.google.firebase:firebase-auth:21.0.3'
     implementation 'com.google.firebase:firebase-database:20.0.4'
     implementation 'com.google.firebase:firebase-firestore'
+    implementation 'com.google.firebase:firebase-storage-ktx'
 
     // Declare the dependency for the Firebase SDK for Google Analytics
     implementation 'com.google.firebase:firebase-analytics-ktx'

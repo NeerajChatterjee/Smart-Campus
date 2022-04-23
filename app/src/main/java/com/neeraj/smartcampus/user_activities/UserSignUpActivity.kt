@@ -12,6 +12,8 @@ import android.widget.Toast
 import com.google.firebase.FirebaseException
 import com.google.firebase.FirebaseTooManyRequestsException
 import com.google.firebase.auth.*
+import com.google.firebase.database.FirebaseDatabase
+import com.google.firebase.storage.FirebaseStorage
 import com.neeraj.smartcampus.R
 import kotlinx.android.synthetic.main.activity_user_sign_up.*
 import java.util.concurrent.TimeUnit
