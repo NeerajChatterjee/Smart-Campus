@@ -10,8 +10,10 @@ import androidx.core.content.ContextCompat
 import androidx.core.view.get
 import androidx.viewpager2.widget.ViewPager2
 import com.neeraj.smartcampus.user_activities.UserLoginActivity
+import com.neeraj.smartcampus.user_activities.UserSignUpActivity
 import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.android.synthetic.main.activity_splash_screen.*
+import kotlinx.android.synthetic.main.activity_user_login.*
 
 class MainActivity : AppCompatActivity() {
     private val introSliderAdapter = IntroSliderAdapter(
@@ -54,12 +56,12 @@ class MainActivity : AppCompatActivity() {
                 introSliderViewPager.currentItem += 1
             }
             else {
-                startActivity(Intent(this, UserLoginActivity::class.java))
+                startActivity(Intent(this, UserSignUpActivity::class.java))
                 finish()
             }
         }
         text2.setOnClickListener{
-            val intent = Intent(this, UserLoginActivity::class.java)
+            val intent = Intent(this, UserSignUpActivity::class.java)
             startActivity(intent)
             finish()
         }

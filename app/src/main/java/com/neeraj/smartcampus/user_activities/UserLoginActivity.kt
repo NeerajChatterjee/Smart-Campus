@@ -125,6 +125,5 @@ class UserLoginActivity : AppCompatActivity() {
             finish()
 
         }
-
     }
 }
