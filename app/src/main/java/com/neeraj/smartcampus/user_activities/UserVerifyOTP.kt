@@ -11,6 +11,8 @@ import android.widget.Toast
 import com.google.firebase.FirebaseException
 import com.google.firebase.FirebaseTooManyRequestsException
 import com.google.firebase.auth.*
+import com.google.firebase.database.FirebaseDatabase
+import com.google.firebase.storage.FirebaseStorage
 import com.neeraj.smartcampus.R
 import kotlinx.android.synthetic.main.activity_user_verify_otp.*
 import java.util.concurrent.TimeUnit
@@ -26,6 +28,8 @@ class UserVerifyOTP : AppCompatActivity() {
     lateinit var callbacks: PhoneAuthProvider.OnVerificationStateChangedCallbacks
     lateinit var verificationId: String
     lateinit var dialog: ProgressDialog
+    lateinit var database: FirebaseDatabase
+    lateinit var storage: FirebaseStorage
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -44,9 +48,11 @@ class UserVerifyOTP : AppCompatActivity() {
         dialog.setCancelable(false)
         dialog.setCanceledOnTouchOutside(false)
 
-        // callback
         val auth = FirebaseAuth.getInstance()
+        storage = FirebaseStorage.getInstance()
+        database = FirebaseDatabase.getInstance()
 
+        // callback
         callbacks = object : PhoneAuthProvider.OnVerificationStateChangedCallbacks() {
 
             override fun onVerificationCompleted(credential: PhoneAuthCredential) {
