@@ -23,18 +23,18 @@ class MainActivity : AppCompatActivity() {
         listOf(
             IntroSlide(
                 "Welcome to Smart Campus",
-                "Everything at your palm",
+                "Everything at your palm!!",
                 R.drawable.campus
             ),
             IntroSlide(
-                "Order Your Favorite Food",
-                "Everything at your palm",
-                R.drawable.shape
+                "Go Without Cash",
+                "Use Smart Campus Wallet at Local Canteen",
+                R.drawable.cashless
             ),
             IntroSlide(
                 "Daily Entries, Register Complaints and Many More",
-                "Everything at your palm",
-                R.drawable.shape
+                "Everything at your palm!!",
+                R.drawable.dailyentries
             )
         )
     )
