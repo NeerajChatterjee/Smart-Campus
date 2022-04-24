@@ -13,7 +13,7 @@ And we are here to make it more accessible as hostelers suffer from a chronic di
   <a href="https://youtu.be/dQw4w9WgXcQ">Click Here</a>
   
 ## Presentation Link:
-  <a href="https://cutt.ly/H365PPT"> PPT link here </a>
+  <a href="https://www.canva.com/design/DAE-wQZy2IU/SoCxQ1WQnxikiskDqc5kww/view?utm_content=DAE-wQZy2IU&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"> PPT link here </a>
   
   
 ## Table of Contents:
