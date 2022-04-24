@@ -1,11 +1,18 @@
 package com.neeraj.smartcampus.user_activities.fragments
 
+import android.content.Intent
+import android.net.Uri
 import android.os.Bundle
-import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.Toast
+import androidx.fragment.app.Fragment
 import com.neeraj.smartcampus.R
+import com.neeraj.smartcampus.user_activities.UserComplaintActivity
+import com.neeraj.smartcampus.user_activities.UserHostelContactsActivity
+import com.neeraj.smartcampus.user_activities.UserLeaveActivity
+import kotlinx.android.synthetic.main.fragment_user_hostel.view.*
 
 // TODO: Rename parameter arguments, choose names that match
 // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -35,7 +42,29 @@ class userHostelFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_user_hostel, container, false)
+        var view: View = inflater.inflate(R.layout.fragment_user_hostel, container, false)
+
+        view.complaint.setOnClickListener{
+            startActivity(Intent(context, UserComplaintActivity::class.java))
+        }
+        view.leaveApplication.setOnClickListener{
+            startActivity(Intent(context, UserLeaveActivity::class.java))
+        }
+        view.ambulance.setOnClickListener{
+            val intent = Intent(Intent.ACTION_CALL, Uri.parse("tel:" + "7417348469"))
+            startActivity(intent)
+//            val number = "7417348469"
+//            val callIntent = Intent(Intent.ACTION_CALL)
+//            callIntent.data = Uri.parse("tel:$number")
+//            startActivity(callIntent)
+        }
+        view.sickFood.setOnClickListener {
+            Toast.makeText(context, "Your request has been sent", Toast.LENGTH_LONG).show()
+        }
+        view.contacts.setOnClickListener{
+            startActivity(Intent(context, UserHostelContactsActivity::class.java))
+        }
+        return view
     }
 
     companion object {
