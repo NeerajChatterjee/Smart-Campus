@@ -9,6 +9,8 @@ import android.widget.LinearLayout
 import androidx.core.content.ContextCompat
 import androidx.core.view.get
 import androidx.viewpager2.widget.ViewPager2
+import com.google.firebase.auth.FirebaseAuth
+import com.google.firebase.ktx.Firebase
 import com.neeraj.smartcampus.user_activities.UserDashboardActivity
 import com.neeraj.smartcampus.user_activities.UserLoginActivity
 import com.neeraj.smartcampus.user_activities.UserSignUpActivity
@@ -73,6 +75,13 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun setupIndicators(){
+
+        if(FirebaseAuth.getInstance().currentUser != null){
+            startActivity(Intent(this, UserDashboardActivity::class.java))
+            finish()
+            return
+        }
+
         val indicators = arrayOfNulls<ImageView>(introSliderAdapter.itemCount)
         val layoutParams: LinearLayout.LayoutParams = LinearLayout.LayoutParams(
             ViewGroup.LayoutParams.WRAP_CONTENT,
