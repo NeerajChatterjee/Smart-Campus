@@ -62,9 +62,13 @@ class MainActivity : AppCompatActivity() {
             }
         }
         text2.setOnClickListener{
-            val intent = Intent(this, UserDashboardActivity::class.java)
-            startActivity(intent)
+
+            startActivity(Intent(this, UserLoginActivity::class.java))
             finish()
+
+//            val intent = Intent(this, UserDashboardActivity::class.java)
+//            startActivity(intent)
+//            finish()
         }
     }
 

@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.SmartCampus">
         <activity
+            android:name=".user_activities.food_activities.Cafe96MainActivity"
+            android:exported="false" />
+        <activity
             android:name=".user_activities.UserDashboardActivity"
             android:exported="false" />
         <activity

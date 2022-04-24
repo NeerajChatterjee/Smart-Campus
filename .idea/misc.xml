@@ -3,41 +3,20 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-<<<<<<< HEAD
+        <entry key="..\:/Users/Neeraj/AndroidStudioProjects/Hack36_5.0 (Original)/Smart-Campus/app/src/main/res/drawable/divider.xml" value="0.136" />
         <entry key="..\:/Users/Neeraj/AndroidStudioProjects/Hack36_5.0 (Original)/Smart-Campus/app/src/main/res/drawable/ic_baseline_email_24.xml" value="0.1585" />
         <entry key="..\:/Users/Neeraj/AndroidStudioProjects/Hack36_5.0 (Original)/Smart-Campus/app/src/main/res/drawable/ic_baseline_home_24.xml" value="0.1585" />
         <entry key="..\:/Users/Neeraj/AndroidStudioProjects/Hack36_5.0 (Original)/Smart-Campus/app/src/main/res/drawable/ic_baseline_phone_24.xml" value="0.1585" />
         <entry key="..\:/Users/Neeraj/AndroidStudioProjects/Hack36_5.0 (Original)/Smart-Campus/app/src/main/res/drawable/ic_baseline_remove_red_eye_24.xml" value="0.1025" />
+        <entry key="..\:/Users/Neeraj/AndroidStudioProjects/Hack36_5.0 (Original)/Smart-Campus/app/src/main/res/drawable/items_food_type_details.xml" value="0.1335" />
+        <entry key="..\:/Users/Neeraj/AndroidStudioProjects/Hack36_5.0 (Original)/Smart-Campus/app/src/main/res/layout/activity_cafe96_main.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Neeraj/AndroidStudioProjects/Hack36_5.0 (Original)/Smart-Campus/app/src/main/res/layout/activity_main.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/Neeraj/AndroidStudioProjects/Hack36_5.0 (Original)/Smart-Campus/app/src/main/res/layout/activity_user_login.xml" value="0.264" />
         <entry key="..\:/Users/Neeraj/AndroidStudioProjects/Hack36_5.0 (Original)/Smart-Campus/app/src/main/res/layout/activity_user_sign_up.xml" value="0.264" />
         <entry key="..\:/Users/Neeraj/AndroidStudioProjects/Hack36_5.0 (Original)/Smart-Campus/app/src/main/res/layout/activity_user_verify_otp.xml" value="0.264" />
-=======
-        <entry key="..\:/Hack36/Smart-Campus/app/src/main/res/drawable/btn_gradient_style.xml" value="0.2195" />
-        <entry key="..\:/Hack36/Smart-Campus/app/src/main/res/drawable/ic_baseline_email_24.xml" value="0.237" />
-        <entry key="..\:/Hack36/Smart-Campus/app/src/main/res/drawable/ic_baseline_login_24.xml" value="0.2195" />
-        <entry key="..\:/Hack36/Smart-Campus/app/src/main/res/drawable/ic_baseline_password_24.xml" value="0.2195" />
-        <entry key="..\:/Hack36/Smart-Campus/app/src/main/res/drawable/ic_home.xml" value="0.1215" />
-        <entry key="..\:/Hack36/Smart-Campus/app/src/main/res/drawable/ic_profile.xml" value="0.1215" />
-        <entry key="..\:/Hack36/Smart-Campus/app/src/main/res/drawable/loginshape.xml" value="0.2195" />
-        <entry key="..\:/Hack36/Smart-Campus/app/src/main/res/drawable/rounded.xml" value="0.1215" />
-        <entry key="..\:/Hack36/Smart-Campus/app/src/main/res/drawable/shape.xml" value="0.2195" />
-        <entry key="..\:/Hack36/Smart-Campus/app/src/main/res/layout/activity_main.xml" value="0.23645833333333333" />
-        <entry key="..\:/Hack36/Smart-Campus/app/src/main/res/layout/activity_splash_screen.xml" value="0.23645833333333333" />
-        <entry key="..\:/Hack36/Smart-Campus/app/src/main/res/layout/activity_user_dashboard.xml" value="0.23645833333333333" />
-        <entry key="..\:/Hack36/Smart-Campus/app/src/main/res/layout/activity_user_login.xml" value="0.2" />
-        <entry key="..\:/Hack36/Smart-Campus/app/src/main/res/layout/activity_user_sign_up.xml" value="0.264" />
-        <entry key="..\:/Hack36/Smart-Campus/app/src/main/res/layout/fragment_profile.xml" value="0.23645833333333333" />
-        <entry key="..\:/Hack36/Smart-Campus/app/src/main/res/layout/fragment_user_profile.xml" value="0.23645833333333333" />
-        <entry key="..\:/Hack36/Smart-Campus/app/src/main/res/layout/slide_item.xml" value="0.23645833333333333" />
-<<<<<<< HEAD
-        <entry key="..\:/Hack36/Smart-Campus/app/src/main/res/menu/menu_bottom.xml" value="0.23645833333333333" />
-        <entry key="..\:/Hack36/Smart-Campus/app/src/main/res/menu/pfav_menu.xml" value="0.23645833333333333" />
-        <entry key="..\:/Hack36/Smart-Campus/app/src/main/res/menu/phome_menu.xml" value="0.23645833333333333" />
-        <entry key="..\:/Hack36/Smart-Campus/app/src/main/res/menu/pmenu_bottom.xml" value="0.23645833333333333" />
-        <entry key="..\:/Hack36/Smart-Campus/app/src/main/res/menu/user_menu_button.xml" value="0.264" />
-=======
->>>>>>> main
->>>>>>> main
+        <entry key="..\:/Users/Neeraj/AndroidStudioProjects/Hack36_5.0 (Original)/Smart-Campus/app/src/main/res/layout/fragment_user_food.xml" value="0.264" />
+        <entry key="..\:/Users/Neeraj/AndroidStudioProjects/Hack36_5.0 (Original)/Smart-Campus/app/src/main/res/layout/item_food_menu_blocks.xml" value="0.264" />
+        <entry key="..\:/Users/Neeraj/AndroidStudioProjects/Hack36_5.0 (Original)/Smart-Campus/app/src/main/res/layout/item_food_type_details.xml" value="0.25052083333333336" />
       </map>
     </option>
   </component>
