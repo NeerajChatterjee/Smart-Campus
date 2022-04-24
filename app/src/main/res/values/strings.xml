@@ -46,4 +46,9 @@
     <string name="caretaker_2">Caretaker 2</string>
     <string name="guard_1">Guard 1</string>
     <string name="guard_2">Guard 2</string>
+    <string name="select_your_canteen_text">SELECT YOUR CANTEEN</string>
+    <string name="cafe_96_text">CAFE 96</string>
+    <string name="yashnath_text">YASHNATH</string>
+    <string name="cafe_96_menu_text">CAFE 96 MENU</string>
+    <string name="add_to_cart_text">ADD TO CART</string>
 </resources>

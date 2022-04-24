@@ -78,6 +78,8 @@ class UserLoginActivity : AppCompatActivity() {
                         val user = auth.currentUser
                         if(user!!.isEmailVerified) {
                             Toast.makeText(this, "Login Successful! ${user.displayName} ${user.email}", Toast.LENGTH_SHORT).show()
+                            startActivity(Intent(this, UserDashboardActivity::class.java))
+                            finish()
                         }
                         else{
                             Toast.makeText(this, "Please verify your E-Mail and then try login.", Toast.LENGTH_SHORT).show()

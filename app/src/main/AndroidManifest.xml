@@ -15,12 +15,15 @@
             android:exported="false" />
         <activity
             android:name=".user_activities.UserLeaveActivity"
-            android:exported="false" />
+            android:exported="false"/>
         <activity
-            android:name=".user_activities.UserComplaintActivity"
+            android:name=".user_activities.food_activities.Cafe96MainActivity"
             android:exported="false" />
         <activity
             android:name=".user_activities.UserDashboardActivity"
+            android:exported="false" />
+        <activity
+            android:name=".user_activities.UserComplaintActivity"
             android:exported="false" />
         <activity
             android:name=".user_activities.UserLoginActivity"

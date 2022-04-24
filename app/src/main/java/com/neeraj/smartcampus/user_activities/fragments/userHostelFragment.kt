@@ -51,12 +51,8 @@ class userHostelFragment : Fragment() {
             startActivity(Intent(context, UserLeaveActivity::class.java))
         }
         view.ambulance.setOnClickListener{
-            val intent = Intent(Intent.ACTION_CALL, Uri.parse("tel:" + "7417348469"))
+            val intent = Intent(Intent.ACTION_CALL, Uri.parse("tel:" + "0000000000"))
             startActivity(intent)
-//            val number = "7417348469"
-//            val callIntent = Intent(Intent.ACTION_CALL)
-//            callIntent.data = Uri.parse("tel:$number")
-//            startActivity(callIntent)
         }
         view.sickFood.setOnClickListener {
             Toast.makeText(context, "Your request has been sent", Toast.LENGTH_LONG).show()
